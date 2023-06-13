@@ -19,7 +19,7 @@ _Before proceeding, first verify you have `curl` and `jq` installed. If using a 
 
 Verify that you have completed the steps listed under **Build and Run**, so there is a running application for the script to retreive data from.
 
-Run the script from the top level directory: `./retreive_data.sh`
+Open a new terminal window and run the script from the top level directory: `./retreive_data.sh`
 
 The script will download the json data from `/data` endpoint of the flask application and create files per the initial instructions provided. The files will be created in the `files/` directory. 
 
